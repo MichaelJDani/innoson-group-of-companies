@@ -200,11 +200,11 @@
           </div>
         </section>
         <section
-          class="bg-[url('assets/unity-2-img.png')] lg:h-[510px] bg-no-repeat bg-center bg-cover flex justify-center items-center"
+          class="bg-[url('assets/unity-2-img.png')] mt-10 h-[200px] lg:h-[510px] bg-no-repeat bg-center bg-cover flex justify-center items-center"
         >
-          <div class="text-[#ffffff]">
+          <div>
             <h1
-              class="font-[600] text-[20px] lg:text-[70px] lg:w-[80rem] py-6 flex justify-center items-center text-center"
+              class="font-[700] text-[#ffffff] md:text-[20px] lg:text-[60px] flex justify-center items-center text-center"
             >
               Elevating Africa through Excellence in Manufacturing.
             </h1>
@@ -213,9 +213,9 @@
       </section>
 
       <footer
-        class="mx-auto bg-black text-[#ffffff] pl-6 lg:pl-0 md:flex items-center justify-center lg:p-12 gap-5 lg:gap-30"
+        class="bg-[#0f0f0f] text-[#ffffff] pl-6 lg:pl-0 md:flex items-center justify-center lg:p-12 gap-5 lg:gap-30"
       >
-        <section class="text-[#ffffff] text-[#ffffff]">
+        <div class="mx-auto text-[#ffffff] text-[#ffffff]">
           <img
             class="pt-4 lg:pt-0"
             src="assets/inoson2logo.svg"
@@ -225,19 +225,24 @@
             Subscribe to our newsletter to be one of the first to receive
             updates on Innoson Group
           </p>
-          <h1 class="py-3 text-[16px] font-[600]">Newsletter Sign Up</h1>
-          <div>
+          <h3 class="py-3 text-[20px] font-[600]">Newsletter Sign Up</h3>
+          <form>
             <input
-              class="border border-[#ffffff]-2 placeholder-white font-bold rounded"
+              class="border border-[#ffffff]-2 rounded-sm placeholder-[#ffffff] p-2 font-bold rounded"
               type="email"
               name=""
               id="Email Address"
               placeholder="Email Address"
+              required
             />
-            <button class="bg-[#2E3192] px-5 flex">Email Address</button>
-          </div>
-        </section>
-        <section class="pt-5 lg:pt-13">
+            <button class="bg-[#2E3192] rounded-sm py-2 px-5 flex">
+              Email Address
+            </button>
+          </form>
+        </div>
+        <!-- Address Div -->
+
+        <div class="pt-5 lg:pt-13">
           <h1 class="text-[20px] font-[600] pb-4">Address</h1>
           <h2 class="text-[16px] font-[600]">Head Office</h2>
           <p class="text-[16px] font-[300] w-65">
@@ -247,8 +252,9 @@
           <p class="text-[16px] font-[300] w-65">
             Plot 1 Block A, Amuwo Odofin Ind. Estate, Oshodi, Apapa, Lagos State
           </p>
-        </section>
-        <section class="flex flex-col gap-3">
+        </div>
+
+        <div class="flex flex-col gap-3">
           <h1 class="text-[20px] font-[600] py-2">Contact</h1>
           <div class="flex gap-3">
             <img src="assets/bi_facebook.png" alt="" />
@@ -264,7 +270,7 @@
             <img src="assets/Vector.png" alt="" />
             <p class="text-[16px] font-[400]">sales@innosongroup.com</p>
           </div>
-        </section>
+        </div>
       </footer>
       <footer class="bg-black text-[#ffffff]">
         <div class="flex flex-col justify-center items-center">
@@ -276,7 +282,7 @@
         <footer class="text-sm text-center text-gray-500 mt-10 p-4">
           <p>
             Disclaimer: This is a student/portfolio project and is not
-            affiliated with Innoson Group of Companies.   
+            affiliated with Innoson Group of Companies.
           </p>
         </footer>
       </footer>
